@@ -2,7 +2,7 @@ import os
 
 class Config:
     # Force PyMySQL usage with explicit dialect
-    SQLALCHEMY_DATABASE_URI = os.getenv('MYSQL_URL', 'mysql+pymysql://root:aLYLtDDdeayDLjmRYaogzvPgfNPZYjXP@mysql.railway.internal:3306/railway')
+    SQLALCHEMY_DATABASE_URI = os.getenv('MYSQL_URL', 'mysql://root:QKErTqUxrsHQfgLwQrfIuzBFBYFRkpPW@mysql.railway.internal:3306/railway')
     SQLALCHEMY_ENGINE_OPTIONS = {
         'pool_pre_ping': True,
         'pool_recycle': 300,
