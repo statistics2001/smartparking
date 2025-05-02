@@ -1,0 +1,15 @@
+Flask==2.3.2
+Flask-Cors==3.0.10
+Flask-SQLAlchemy==3.0.3
+Flask-Migrate==4.1.0
+PyMySQL==1.1.0  # Updated version with better compatibility
+gunicorn==20.1.0
+Werkzeug==2.3.7
+SQLAlchemy==1.4.48
+alembic==1.15.1
+greenlet==3.1.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+stripe==8.0.0  # or the latest version
+python-dotenv==1.0.0 
